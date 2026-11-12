@@ -18,4 +18,4 @@ v0.02 支持在书籍正文中划线、查看段落想法、写想法和回复�
 
 安装 v0.04 后，在「我的 → 版本信息」打开「接收 Beta 版本」。开关默认关闭，打开时自动检查预发布版，确认下载安装后退出并重新打开应用。关闭开关后，后续只检查更高版本的正式版。
 
-本次 [v0.05-beta.1](https://github.com/xingxingshese/kindle-weread-release/releases/tag/v0.05-beta.1) 包含原版阅读时长、公众号目录分页和书籍段落想法，可在打开 Beta 开关后安装。已手动安装 v0.03-rc.1 的用户也可直接下载此 Beta 完整包通过 USB 升级。
+[v0.06-beta.1](https://github.com/xingxingshese/kindle-weread-release/releases/tag/v0.06-beta.1) 支持原生微信扫码、账号阅读时长、整页翻阅及长按选词。v0.04 和 v0.05-beta.1 可在应用内增量更新。较早版本可通过 USB 安装本页的 Beta 完整包。
