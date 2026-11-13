@@ -1,0 +1,20 @@
+name: Publish PW3 v0.07-beta.1
+on:
+  push:
+    branches: [publish-v0.07-beta.1]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Create GitHub prerelease with verified assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd release-assets
+          sha256sum -c SHA256SUMS
+          gh release create v0.07-beta.1 *.zip --verify-tag --prerelease --latest=false --title 'v0.07-beta.1 · PW3 阅读界面测试版' --notes-file ../beta-notes.md
