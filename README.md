@@ -18,6 +18,8 @@ v0.02 支持在书籍正文中划线、查看段落想法、写想法和回复�
 
 安装 v0.04 后，在「我的 → 版本信息」打开「接收 Beta 版本」。开关默认关闭，打开时自动检查预发布版，确认下载安装后退出并重新打开应用。关闭开关后，后续只检查更高版本的正式版。
 
+[v0.09-beta.1](https://github.com/xingxingshese/kindle-weread-release/releases/tag/v0.09-beta.1) 修正书页末行和阅读工具栏，恢复锁屏设置。v0.08 可使用相邻版本增量包，更早版本和首次安装使用[完整安装包](https://github.com/xingxingshese/kindle-weread-release/releases/download/v0.09-beta.1/kindle-weread.zip)。
+
 [v0.08-beta.1](https://github.com/xingxingshese/kindle-weread-release/releases/tag/v0.08-beta.1) 修正休眠唤醒：阅读正文、已展开的排版面板或确认框会恢复到休眠前的状态。v0.04 至 v0.07 提供增量包。[下载 v0.08 Beta 完整包](https://github.com/xingxingshese/kindle-weread-release/releases/download/v0.08-beta.1/kindle-weread.zip)
 
 [v0.07-beta.1](https://github.com/xingxingshese/kindle-weread-release/releases/tag/v0.07-beta.1) 更新了 PW3 书籍选词、词典、划线评论、笔记草稿、账号和本机阅读时长界面。已安装 v0.04、v0.05 或 v0.06 的用户可以增量升级。[下载 Beta 完整包](https://github.com/xingxingshese/kindle-weread-release/releases/download/v0.07-beta.1/kindle-weread.zip)
